@@ -1,0 +1,31 @@
+{
+  "requestParam": {
+    "mti": "0800",
+    "processingCode": "080203",
+    "traceNumber": "398319",
+    "localTime": "170329",
+    "localDate": "20250123",
+    "agencyId": "9501006",
+    "otherInfo": "{\"voucherId\":\"V1234567\",\"acqBank\":\"0080000\",\"recipientId\":\"6399860000118488\",\"balanceValue\":\"000000026600\",\"amt\":\"000000000700\",\"issBank\":\"0080000\",\"walletId\":\"6399860000150475\",\"localTime\":\"171258\",\"localDate\":\"20250123\",\"traceNumber\":\"811409\",\"remark\":\"5pW45L2N5Yi45bmz5Y-w56e76L2J5Lqk5piT5ris6Kmm\"}"
+  }
+}
+
+
+{
+  "protected": "eyJraWQiOiJCMDA0REMwMFlES0FDRE8iLCJlbmMiOiJBMjU2R0NNIn0",
+  "unprotected": {
+    "serverId": "949",
+    "rqId": "011616220409"
+  },
+  "recipients": [{
+    "header": {
+      "alg": "A256GCMKW",
+      "iv": "vUWkBaHGLMcpoPtP",
+      "tag": "xu8iY8tlmmB7xvT6e1c9Cg"
+    },
+    "encrypted_key": "ab7bX1JbOcE2U9I1zcLwjwlBPnpXSSVBv8yJonbJgz0"
+  }],
+  "iv": "LOB4vrVSheBhcEm1",
+  "ciphertext": "2qR2klWPq9jjMvm1F_8IRYuxXcgZYK7WPVk8sh9fmOpr0iabDV_7QAmEYsB9lTg11ufqPTqrbWA1tewMAGvLzBQKmcLqruQeVgR0H48O9hFoHF6hYNK2TikKCDPou7BLNIilkVIrQuD_8tuWTdX6lIhTwu2VcxBWlSam56q56xGHAmB9DX4Te5iQ043SjbjGPeVVZKWmgPTAImFrjI7PJ_-FY--mlXjbrnryKxORnlyvo-Z8w-UjXDtoUrCIfotmwIIll9Ej5OKDgzpkX8O9pgPRRNzSGaEIjZgvbHFMNsFWyu_2C4tuIvmmbh8AzQfEICkAGdHF5Fa-5m28m434l3cdMHbw38sC-hVefRZPBFnAwZIzYasZSuH-WFFSOckckoAgNWGQoPxkVfkC8SqoF2R5ZJO75xF8qrgW0eikm7v8SLSOLmcU-XLGmH84RPKWVt4tzSOHNG4F2zMqixAaRNPDaJDf0kuZA6x8nmB3ZTmzmieOBXbvRQcI6eZf3tN2WN6L4WNdhrztPIMAGb_Aw4Orri9ZpXE6UkOODNeRMOTSKXoDd6TPOL_mY8XAESqfSC-FgjR-soFnclhutWSkkIfH3Ge0KnR_XTd3x0kiuCfcyCYkXQHqcyA7fEotq6yznZ0QMTdTlCC-VK7FdS5t_OgwXyz0sxCxrLgDmT-Ev3V3Kopbi1AA37KfNvkBmcL9J1bjGzaC",
+  "tag": "lp9qQP51Jyw7DWW9QIRfwA"
+}
