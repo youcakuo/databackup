@@ -1,0 +1,18 @@
+{
+  "protected": "eyJraWQiOiJCMDA0REMwMFlES0FDRE8iLCJlbmMiOiJBMjU2R0NNIn0",
+  "unprotected": {
+    "serverId": "949",
+    "rqId": "011913124903"
+  },
+  "recipients": [{
+    "header": {
+      "alg": "A256GCMKW",
+      "iv": "ObgiHd4ug5RpghQ2",
+      "tag": "zVr5IyOWbDzRPrYVjgjybw"
+    },
+    "encrypted_key": "qbAE2Dfb_iScIqSWtXoq1FlTBKCuDcE3r_A8SpTkR4w"
+  }],
+  "iv": "JpGCZOpEaBkC-Nel",
+  "ciphertext": "TP0uk223cMgM9qMwwAbdWxXI9noKv3GWXRwZQkadCxSJHCYFvF7u3PfSmP6N6_o64iUSjtXn-soAmyuh1aXNkuegK0b2ltuj31VWbCWjlDGcSp9E9-Fkiy2b4uX8PxOnnPjXSDA_iVyHEwJZdAwUHcPTVhmm7N9gQPwc5qqbDlQCvIM5oRZfSV9Tv7fiW-RUVNkdazwJqz74SsM1AAfMhaT6cUUyaWYf0xImc190nFrt08daGliKtVW2v50q4uXkTckmZ6f1w1fdIva97S58YiDxpkuKIfAd_bpiedOnWlE_XrkC1Uq3XLBsaw0BbZ-G0Sn85wOXfytJfQ5uDGJu3aM9JXUnB1B-IlOZH5GBM9crpBMzEZlyw15mzBdW65DAAFA0oQTJDGT3HXKgKU-xLfRtrxRrWf6wai--3fKSNQjvCxzSjcGvITzoOr8oYN4aIn39p0Pm8n0eiB5aGYDsXvzezt_SfCvpwAwb80JF0Z7vs4cpQJiprmXWW11Mhz9N14GY5jBxp61bn9OjHaQvWhBPdzRtiKrfS5lhAx5YOl9mGxZA1qQp_RzqXzuSzzC4pkqbyESEv_4CCyHCxPxrMF0cnn4flfsMz_IEwMu_XmUgOhnWtYMc7oOJ4-nNmjuNWVRfPqDsYBWa1lYuqwDCfcwIx_s4Ha1xSuKDfa4YBaqkb6u_-nWaQJaebxpyZpsRdo2pW1NE",
+  "tag": "absOti7AXtheecnmkZWEQg"
+}
