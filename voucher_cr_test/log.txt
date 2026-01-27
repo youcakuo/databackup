@@ -1,0 +1,28 @@
+2026-01-27 09:10:10,976 [Default Executor-thread-247]| [883cf521f434415c9a886138f094174b] [] | https://10.0.171.80:9443/TCB.HCE.VOUCHER/api/gw/twmpDataIn/QueryUnBindingVouchers | HsmService
+            [INFO ] [JWE] getSessionKey, divData:94901270000034800000000000000000
+2026-01-27 09:10:11,000 [Default Executor-thread-247]| [883cf521f434415c9a886138f094174b] [] | https://10.0.171.80:9443/TCB.HCE.VOUCHER/api/gw/twmpDataIn/QueryUnBindingVouchers | RaEncryptService
+            [ERROR] [ERROR -> /ADM/com.tcb.gateway.service.impl.RaEncryptService] Get session key error: I/O error on POST request for "https://ss-t.tcbt.com/SS6/rest/TCB/AllOp/pd/sym/encrypt": Connection reset
+2026-01-27 09:10:11,001 [Default Executor-thread-247]| [883cf521f434415c9a886138f094174b] [] | https://10.0.171.80:9443/TCB.HCE.VOUCHER/api/gw/twmpDataIn/QueryUnBindingVouchers | MessageResponseAspect
+            [INFO ] [INFO -> /ADM/com.tcb.message.config.MessageResponseAspect] =====After advice starts=====
+2026-01-27 09:10:11,001 [Default Executor-thread-247]| [883cf521f434415c9a886138f094174b] [] | https://10.0.171.80:9443/TCB.HCE.VOUCHER/api/gw/twmpDataIn/QueryUnBindingVouchers | MessageResponseAspect
+            [INFO ] [INFO -> /ADM/com.tcb.message.config.MessageResponseAspect] 訪問 /twMpDataIn 交易結束...
+2026-01-27 09:10:11,002 [Default Executor-thread-247]| [883cf521f434415c9a886138f094174b] [] | https://10.0.171.80:9443/TCB.HCE.VOUCHER/api/gw/twmpDataIn/QueryUnBindingVouchers | MessageResponseAspect
+            [INFO ] [INFO -> /ADM/com.tcb.message.config.MessageResponseAspect] =====After advice ends=====
+2026-01-27 09:10:11,002 [Default Executor-thread-247]| [883cf521f434415c9a886138f094174b] [] | https://10.0.171.80:9443/TCB.HCE.VOUCHER/api/gw/twmpDataIn/QueryUnBindingVouchers | MessageResponseAspect
+            [ERROR] [ERROR -> /ADM/com.tcb.message.config.MessageResponseAspect] Cannot invoke "java.lang.String.replace(char, char)" because "sessionKey" is null
+java.lang.NullPointerException: Cannot invoke "java.lang.String.replace(char, char)" because "sessionKey" is null
+        at com.tcb.base.service.impl.HsmService.getSessionKey(HsmService.java:795) ~[TCB.HCE.VOUCHER.GW.spring:?]
+        at com.tcb.base.service.impl.HsmService.getJweDecrypt(HsmService.java:691) ~[TCB.HCE.VOUCHER.GW.spring:?]
+        at com.tcb.base.service.impl.HsmService.parseJweString(HsmService.java:933) ~[TCB.HCE.VOUCHER.GW.spring:?]
+        at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+        at java.lang.reflect.Method.invoke(Method.java:586) ~[?:?]
+        at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:360) ~[spring-aop-6.2.9.jar:6.2.9]
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.2.9.jar:6.2.9]
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.2.9.jar:6.2.9]
+        at org.springframework.aop.support.DelegatingIntroductionInterceptor.doProceed(DelegatingIntroductionInterceptor.java:137) ~[spring-aop-6.2.9.jar:6.2.9]
+        at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124) ~[spring-aop-6.2.9.jar:6.2.9]
+        at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.2.9.jar:6.2.9]
+        at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:728) ~[spring-aop-6.2.9.jar:6.2.9]
+        at com.tcb.base.service.impl.HsmService$$SpringCGLIB$$0.parseJweString(<generated>) ~[TCB.HCE.VOUCHER.GW.spring:?]
+        at com.tcb.gateway.controller.DataInController.twMpDataIn(DataInController.java:153) ~[TCB.HCE.VOUCHER.GW.spring:?]
+ 
